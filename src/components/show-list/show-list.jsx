@@ -2,13 +2,13 @@ import React from 'react';
 
 import './show-list.styles.scss';
 
-const ShowList = ({ name, items }) => (
+const ShowList = ({ title, items }) => (
     <div className='showlist'>
-        <h1 className='name'>{name.toUpperCase()}</h1>
+        <h1 className='name'>{title.toUpperCase()}</h1>
         <div className='preview'>
             {items
             .map((item) => (
-                <div key={items.id}>{item.venue}</div>
+                <div key={items.id}>{item.date}: {item.venue} (+{item.extra})</div>
             ))}
         </div>
     </div>

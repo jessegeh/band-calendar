@@ -1,5 +1,5 @@
-const BAND_DATA = [
-    {
+const BAND_DATA = {
+    everybodyknows: {
         id: 1,
         title: 'The Everybody Knows',
         routeName: 'everybodyknows',
@@ -251,7 +251,7 @@ const BAND_DATA = [
             }
         ]
     },
-    {
+    pinkrat: {
         id: 2,
         title: 'Pink Rat',
         routeName: 'pinkrat',
@@ -293,7 +293,7 @@ const BAND_DATA = [
             }
         ]
     },
-    {
+    millionbeers: {
         id: 3,
         title: 'Million Beers',
         routeName: 'millionbeers',
@@ -307,7 +307,7 @@ const BAND_DATA = [
             }
         ]
     },
-    {
+    petetntband: {
         id: 4,
         title: 'Pete TNT Band',
         routeName: 'petetntband',
@@ -447,7 +447,7 @@ const BAND_DATA = [
             }
         ]
     },
-    {
+    karkkiandthecarkeys: {
         id: 5,
         title: 'Karkki & the Car Keys',
         routeName: 'karkkiandthecarkeys',
@@ -643,7 +643,7 @@ const BAND_DATA = [
             }
         ]
     },
-    {
+    teinipaa: {
         id: 6,
         title: 'Teini-Pää',
         routeName: 'teinipaa',
@@ -741,7 +741,7 @@ const BAND_DATA = [
             }
         ]
     },
-    {
+    ketjukirjeet: {
         id: 7,
         title: 'Ketjukirjeet',
         routeName: 'ketjukirjeet',
@@ -755,7 +755,7 @@ const BAND_DATA = [
             }
         ]
     },
-    {
+    heyday: {
         id: 8,
         title: 'Heyday',
         routeName: 'heyday',
@@ -794,9 +794,9 @@ const BAND_DATA = [
                 venue: 'Lepakkomies',
                 town: 'Helsinki',
                 extra: 'Linkopii, Ocelot, Future Box'
-            }
+            },
         ]
     }
-];
+};
 
 export default BAND_DATA;

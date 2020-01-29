@@ -1,0 +1,43 @@
+const INITIAL_STATE = {
+    sections: [{
+        title: 'the everybody knowns',
+        imageUrl: 'https://scontent-hel2-1.xx.fbcdn.net/v/t1.0-9/33995556_2046197835593019_5408772660836433920_o.jpg?_nc_cat=111&_nc_ohc=wXUXRW3cZLQAX9DGZ4V&_nc_ht=scontent-hel2-1.xx&oh=f680149f125a53cef1a2a1768b98d832&oe=5E921934',
+        id: 1,
+        linkUrl: 'band/ebk'
+    },
+    {
+        title: 'karkki & the car keys',
+        imageUrl: 'https://scontent-hel2-1.xx.fbcdn.net/v/t1.0-9/61029418_434854597246439_4100625274306035712_n.jpg?_nc_cat=110&_nc_ohc=V0zKn-f_M5IAX8J0rkJ&_nc_ht=scontent-hel2-1.xx&oh=7913a9d09e29d46e03598f83abe02de4&oe=5E9EDD2B',
+        id: 2,
+        linkUrl: 'band/kck'
+    },
+    {
+        title: 'pete tnt band',
+        imageUrl: 'https://scontent-hel2-1.xx.fbcdn.net/v/t1.0-9/s960x960/48269231_2224703417815085_7501314434350972928_o.jpg?_nc_cat=109&_nc_ohc=uFzwwYOwHXAAX84wO_B&_nc_ht=scontent-hel2-1.xx&_nc_tp=1002&oh=93f516f528f238eef31a538fbc05442d&oe=5ECACEC4',
+        id: 3,
+        linkUrl: 'band/tnt'
+    },
+    {
+        title: 'teini-pää',
+        imageUrl: 'https://scontent-hel2-1.xx.fbcdn.net/v/t1.0-9/69203869_691852597995918_9102791976775843840_o.jpg?_nc_cat=111&_nc_ohc=OgC73vFjHgMAX9BiBv8&_nc_ht=scontent-hel2-1.xx&oh=9d4b916aab4ce3f46f1754e86112e8e6&oe=5E979E0B',
+        size: 'large',
+        id: 4,
+        linkUrl: 'band/teinipaa'
+    },
+    {
+        title: 'heyday',
+        imageUrl: 'https://scontent-hel2-1.xx.fbcdn.net/v/t1.0-9/69220754_104013347643084_2429825344816021504_o.jpg?_nc_cat=100&_nc_ohc=W6D7KcflkD0AX9W7Ubu&_nc_ht=scontent-hel2-1.xx&oh=5ee6d74a65ac80f74f91683a10a96b87&oe=5EC950BC',
+        size: 'large',
+        id: 5,
+        linkUrl: 'band/heyday'
+    }]
+};
+
+const directoryReducer = (state = INITIAL_STATE, action) => {
+    switch (action.type) {
+      default:
+        return state;
+    }
+  };
+  
+  export default directoryReducer;
