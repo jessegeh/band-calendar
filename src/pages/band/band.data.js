@@ -2,7 +2,7 @@ const BAND_DATA = [
     {
         id: 1,
         title: 'The Everybody Knows',
-        routeName: 'everybodyknows',
+        routeName: 'ebk',
         items: [
             {
                 id: 1,
@@ -310,7 +310,7 @@ const BAND_DATA = [
     {
         id: 4,
         title: 'Pete TNT Band',
-        routeName: 'petetntband',
+        routeName: 'tnt',
         items: [
             {
                 id: 28,
@@ -450,7 +450,7 @@ const BAND_DATA = [
     {
         id: 5,
         title: 'Karkki & the Car Keys',
-        routeName: 'karkkiandthecarkeys',
+        routeName: 'kck',
         items: [
             {
                 id: 34,
