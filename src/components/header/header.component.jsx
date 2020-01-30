@@ -17,7 +17,7 @@ const Header = ({ currentUser }) => (
         </Link>
         <div className='options'>
             <Link className='option' to='/addshow'>
-
+                ADD SHOW
             </Link>
             {
                 currentUser ?
