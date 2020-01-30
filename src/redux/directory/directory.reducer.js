@@ -30,14 +30,34 @@ const INITIAL_STATE = {
         size: 'large',
         id: 5,
         linkUrl: 'band/heyday'
-    }]
+    },
+    {
+        title: 'million beers',
+        imageUrl: 'https://www.ilosaarirock.fi/2017/felamaa/wp-content/uploads/2017/07/llosaarirock.fi_2017_laiskat_million_beers_02_sampsa_geijer.jpg',
+        size: 'large',
+        id: 6,
+        linkUrl: 'band/millionbeers'
+    },
+    {
+        title: 'ketjukirjeet',
+        imageUrl: 'https://cdn-az.allevents.in/banners/5cc9ac40-8ac2-11e9-b3f5-b16291e87cab-rimg-w526-h701-gmir.jpg',
+        id: 7,
+        linkUrl: 'band/ketjukirjeet'
+    },
+    {
+        title: 'Pink Rat',
+        imageUrl: 'https://scontent-hel2-1.xx.fbcdn.net/v/t31.0-8/s960x960/22467305_10155029290603733_1327419439627308455_o.jpg?_nc_cat=110&_nc_ohc=qXGawM04FwEAX_IO9uY&_nc_ht=scontent-hel2-1.xx&oh=d50e931b74242f1698dd61096ad800d6&oe=5E96DD6E',
+        id: 8,
+        linkUrl: 'band/pinkrat'
+    }
+    ]
 };
 
 const directoryReducer = (state = INITIAL_STATE, action) => {
     switch (action.type) {
-      default:
-        return state;
+        default:
+            return state;
     }
-  };
-  
-  export default directoryReducer;
+};
+
+export default directoryReducer;
