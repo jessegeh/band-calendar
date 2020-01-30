@@ -1,4 +1,4 @@
-import BAND_DATA from './shop.data';
+import BAND_DATA from './band.data';
 
 const INITIAL_STATE = {
   collections: BAND_DATA

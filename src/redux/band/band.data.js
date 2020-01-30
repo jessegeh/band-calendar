@@ -1,8 +1,8 @@
 const BAND_DATA = {
-    everybodyknows: {
+    ebk: {
         id: 1,
         title: 'The Everybody Knows',
-        routeName: 'everybodyknows',
+        routeName: 'band/ebk',
         items: [
             {
                 id: 1,
@@ -254,7 +254,7 @@ const BAND_DATA = {
     pinkrat: {
         id: 2,
         title: 'Pink Rat',
-        routeName: 'pinkrat',
+        routeName: 'band/pinkrat',
         items: [
             {
                 id: 17,
@@ -296,7 +296,7 @@ const BAND_DATA = {
     millionbeers: {
         id: 3,
         title: 'Million Beers',
-        routeName: 'millionbeers',
+        routeName: 'band/millionbeers',
         items: [
             {
                 id: 20,
@@ -307,7 +307,7 @@ const BAND_DATA = {
             }
         ]
     },
-    petetntband: {
+    tnt: {
         id: 4,
         title: 'Pete TNT Band',
         routeName: 'petetntband',
@@ -447,10 +447,10 @@ const BAND_DATA = {
             }
         ]
     },
-    karkkiandthecarkeys: {
+    kck: {
         id: 5,
         title: 'Karkki & the Car Keys',
-        routeName: 'karkkiandthecarkeys',
+        routeName: 'band/kck',
         items: [
             {
                 id: 34,
@@ -646,7 +646,7 @@ const BAND_DATA = {
     teinipaa: {
         id: 6,
         title: 'Teini-Pää',
-        routeName: 'teinipaa',
+        routeName: 'band/teinipaa',
         items: [
             {
                 id: 73,
@@ -744,7 +744,7 @@ const BAND_DATA = {
     ketjukirjeet: {
         id: 7,
         title: 'Ketjukirjeet',
-        routeName: 'ketjukirjeet',
+        routeName: 'band/ketjukirjeet',
         items: [
             {
                 id: 85,
@@ -794,7 +794,7 @@ const BAND_DATA = {
                 venue: 'Lepakkomies',
                 town: 'Helsinki',
                 extra: 'Linkopii, Ocelot, Future Box'
-            },
+            }
         ]
     }
 };
