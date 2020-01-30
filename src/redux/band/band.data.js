@@ -734,7 +734,7 @@ const BAND_DATA = {
             },
             {
                 id: 105,
-                date: '25.10.2020',
+                date: '25.1.2020',
                 venue: 'Lepakkomies',
                 town: 'Helsinki',
                 extra: 'Ditches, Feral Young, Rats Will Feast'

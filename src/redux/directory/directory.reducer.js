@@ -20,21 +20,20 @@ const INITIAL_STATE = {
     {
         title: 'teini-pää',
         imageUrl: 'https://scontent-hel2-1.xx.fbcdn.net/v/t1.0-9/69203869_691852597995918_9102791976775843840_o.jpg?_nc_cat=111&_nc_ohc=OgC73vFjHgMAX9BiBv8&_nc_ht=scontent-hel2-1.xx&oh=9d4b916aab4ce3f46f1754e86112e8e6&oe=5E979E0B',
-        size: 'large',
+        size: 'big',
         id: 4,
         linkUrl: 'band/teinipaa'
     },
     {
         title: 'heyday',
         imageUrl: 'https://scontent-hel2-1.xx.fbcdn.net/v/t1.0-9/69220754_104013347643084_2429825344816021504_o.jpg?_nc_cat=100&_nc_ohc=W6D7KcflkD0AX9W7Ubu&_nc_ht=scontent-hel2-1.xx&oh=5ee6d74a65ac80f74f91683a10a96b87&oe=5EC950BC',
-        size: 'large',
+        size: 'big',
         id: 5,
         linkUrl: 'band/heyday'
     },
     {
         title: 'million beers',
         imageUrl: 'https://www.ilosaarirock.fi/2017/felamaa/wp-content/uploads/2017/07/llosaarirock.fi_2017_laiskat_million_beers_02_sampsa_geijer.jpg',
-        size: 'large',
         id: 6,
         linkUrl: 'band/millionbeers'
     },

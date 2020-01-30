@@ -8,7 +8,7 @@ const CollectionItem = ({ item }) => {
     return (
         <div className='collection-item'>
             <div className='info'>
-                <b>{date}</b>: {venue} {town} (+{extra})
+                <b>{date}</b>: {venue}, {town} (+{extra})
             </div>
         </div>
     );
