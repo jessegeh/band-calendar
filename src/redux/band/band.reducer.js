@@ -1,11 +1,16 @@
-import BAND_DATA from './band.data';
+import BandActionTypes from './band.types';
 
 const INITIAL_STATE = {
-  collections: BAND_DATA
+  collections: null
 };
 
 const bandReducer = (state = INITIAL_STATE, action) => {
   switch (action.type) {
+    case BandActionTypes.UPDATE_COLLECTIONS:
+      return {
+        ...state,
+        collections: action.payload
+      }
     default:
       return state;
   }
