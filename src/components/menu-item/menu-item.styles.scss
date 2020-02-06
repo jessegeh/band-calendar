@@ -28,10 +28,9 @@
 
   &.big {
     height: 380px;
-    width: 40%;
-
     @media screen and (max-width: 800px) {
       height: 200px;
+      width: 100%;
     }
   }
 
