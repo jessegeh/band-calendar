@@ -9,6 +9,10 @@
   margin: 0 7.5px 15px;
   overflow: hidden;
 
+  @media screen and (max-width: 800px) {
+    height: 200px;
+  }
+
   &:hover {
     cursor: pointer;
 
@@ -28,6 +32,7 @@
 
   &.big {
     height: 380px;
+    width: 40%;
     @media screen and (max-width: 800px) {
       height: 200px;
       width: 100%;
@@ -40,10 +45,6 @@
 
   &:last-child {
     margin-left: 7.5px;
-  }
-
-  @media screen and (max-width: 800px) {
-    height: 200px;
   }
 
   .background-image {
@@ -65,6 +66,10 @@
     opacity: 0.7;
     position: absolute;
 
+    @media screen and (max-width: 800px) {
+      width: 15%;
+    }
+
     .title {
       font-weight: bold;
       margin: 0 6px 0;
@@ -78,9 +83,6 @@
     .subtitle {
       font-weight: lighter;
       font-size: 16px;
-    }
-    @media screen and (max-width: 800px) {
-      width: 15%;
     }
   }
 }
