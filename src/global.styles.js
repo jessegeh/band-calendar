@@ -15,7 +15,7 @@ body {
     color: black;
   }
 
-  /* * {
+  {
     box-sizing: border-box;
-  } */
+  } 
 `;
