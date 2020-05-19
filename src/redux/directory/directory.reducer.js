@@ -1,13 +1,13 @@
 const INITIAL_STATE = {
     sections: [{
         title: 'the everybody knowns',
-        imageUrl: 'https://scontent-hel2-1.xx.fbcdn.net/v/t1.0-9/33995556_2046197835593019_5408772660836433920_o.jpg?_nc_cat=111&_nc_ohc=wXUXRW3cZLQAX9DGZ4V&_nc_ht=scontent-hel2-1.xx&oh=f680149f125a53cef1a2a1768b98d832&oe=5E921934',
+        imageUrl: 'https://scontent-hel2-1.xx.fbcdn.net/v/t1.0-9/33995556_2046197835593019_5408772660836433920_o.jpg?_nc_cat=111&_nc_sid=dd9801&_nc_ohc=DgyEv3F7ewgAX8i3Wjh&_nc_ht=scontent-hel2-1.xx&oh=f48a9365a5f67f83d89e0a9f8059acd1&oe=5EEAEF4C',
         id: 1,
         linkUrl: 'band/the%20everybody%20knows'
     },
     {
         title: 'karkki & the car keys',
-        imageUrl: 'https://scontent-hel2-1.xx.fbcdn.net/v/t1.0-9/61029418_434854597246439_4100625274306035712_n.jpg?_nc_cat=110&_nc_ohc=V0zKn-f_M5IAX8J0rkJ&_nc_ht=scontent-hel2-1.xx&oh=7913a9d09e29d46e03598f83abe02de4&oe=5E9EDD2B',
+        imageUrl: 'https://scontent-hel2-1.xx.fbcdn.net/v/t1.0-9/54416008_402206860511213_1536307405187448832_n.jpg?_nc_cat=107&_nc_sid=dd9801&_nc_ohc=YZAK9Fg1kr8AX8hduWF&_nc_ht=scontent-hel2-1.xx&oh=98a7b74f585c7a07bb832ba7810b7c04&oe=5EEA6816',
         id: 2,
         linkUrl: 'band/karkki%20&%20the%20car%20keys'
     },
@@ -19,7 +19,7 @@ const INITIAL_STATE = {
     },
     {
         title: 'teini-pää',
-        imageUrl: 'https://scontent-hel2-1.xx.fbcdn.net/v/t1.0-9/69203869_691852597995918_9102791976775843840_o.jpg?_nc_cat=111&_nc_ohc=OgC73vFjHgMAX9BiBv8&_nc_ht=scontent-hel2-1.xx&oh=9d4b916aab4ce3f46f1754e86112e8e6&oe=5E979E0B',
+        imageUrl: 'https://scontent-hel2-1.xx.fbcdn.net/v/t1.0-9/69203869_691852597995918_9102791976775843840_o.jpg?_nc_cat=111&_nc_sid=dd9801&_nc_ohc=35D6-oFFgmAAX-4qfTt&_nc_ht=scontent-hel2-1.xx&oh=8a3d19ef4e9e00064eb04c3a7d0626eb&oe=5EE95EF5',
         size: 'big',
         id: 4,
         linkUrl: 'band/teini-p%C3%A4%C3%A4'
@@ -45,7 +45,7 @@ const INITIAL_STATE = {
     },
     {
         title: 'Pink Rat',
-        imageUrl: 'https://scontent-hel2-1.xx.fbcdn.net/v/t31.0-8/s960x960/22467305_10155029290603733_1327419439627308455_o.jpg?_nc_cat=110&_nc_ohc=qXGawM04FwEAX_IO9uY&_nc_ht=scontent-hel2-1.xx&oh=d50e931b74242f1698dd61096ad800d6&oe=5E96DD6E',
+        imageUrl: 'https://scontent-hel2-1.xx.fbcdn.net/v/t31.0-8/s960x960/18278971_10211700763187198_5476127454371900219_o.jpg?_nc_cat=110&_nc_sid=b386c4&_nc_ohc=XcwbkPHHJqoAX8WsdOU&_nc_ht=scontent-hel2-1.xx&_nc_tp=7&oh=a8dd26d15f4176a3bcbe75c70e989a41&oe=5EEAA060',
         id: 8,
         linkUrl: 'band/pink%20rat'
     }
