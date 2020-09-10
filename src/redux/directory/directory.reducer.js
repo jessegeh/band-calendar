@@ -19,7 +19,7 @@ const INITIAL_STATE = {
     },
     {
         title: 'teini-pää',
-        imageUrl: 'https://scontent-hel2-1.xx.fbcdn.net/v/t1.0-9/69203869_691852597995918_9102791976775843840_o.jpg?_nc_cat=111&_nc_sid=dd9801&_nc_ohc=WTgzrvJwt0YAX_lk2Jb&_nc_ht=scontent-hel2-1.xx&oh=7b60109359d6dee04b626298a2b57650&oe=5F581CF5',
+        imageUrl: 'https://teinipaa.com/static/media/teinip%C3%A4%C3%A4_b%C3%A4ndikuvat-iso-2.08dc59c3.jpg',
         size: 'big',
         id: 4,
         linkUrl: 'band/teini-p%C3%A4%C3%A4'
