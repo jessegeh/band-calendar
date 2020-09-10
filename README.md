@@ -1,3 +1,5 @@
+This project is a calendar for bands. The idea is to be able to add shows for bands and for bands to be able to view them on their own page. In its current state the user is able to register and login but the functionality for adding a show outside of the Firebase admin area hasn't been implemented. I no longer update this project as this was mostly for practice and I have moved on to other projects!
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
