@@ -15,9 +15,6 @@ const Header = ({ currentUser }) => (
             <Logo className='logo' />
         </LogoContainer>
         <OptionsContainer>
-            <OptionLink to='/addshow'>
-                ADD SHOW
-            </OptionLink>
             {
                 currentUser ?
                     <OptionLink as='div' onClick={() => auth.signOut()}>SIGN OUT</OptionLink>
